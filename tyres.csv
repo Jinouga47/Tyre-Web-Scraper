@@ -1,0 +1,10 @@
+website,brand,tyrePattern,width,aspectRatio,rimDiameter,construction,loadRating,speedRating,price,extraLoad,runFlat,winter,allSeason,fuelEfficiency,wetGrip,noise
+http://www.dexel.co.uk,Continental,SportContact 5,205,40,17,R,84,V,£118.42,Yes,No,No,No,C,B,72 dB
+http://www.dexel.co.uk,Continental,PremiumContact 6,205,40,17,R,84,Y,£118.99,Yes,No,No,No,C,A,72 dB
+http://www.dexel.co.uk,Dexel,Premium Choice,205,40,17,R,84,W,£96.34,Yes,No,No,No,E,B,68 dB
+http://www.dexel.co.uk,Dunlop,SportMaxx RT2,205,40,17,R,84,W,£112.47,Yes,No,No,No,F,A,68 dB
+http://www.dexel.co.uk,Economy,,205,40,17,R,84,W,£56.88,No,No,No,No,G,F,73 dB
+http://www.dexel.co.uk,Goodyear,Eagle F1 Asymmetric 5,205,40,17,R,84,Y,£112.47,Yes,No,No,No,E,A,70 dB
+http://www.dexel.co.uk,Hankook,Ventus V12 Evo 2 (K120),205,40,17,R,84,W,£93.04,Yes,No,No,No,E,A,70 dB
+http://www.dexel.co.uk,Uniroyal,RainSport 5,205,40,17,R,84,W,£89.41,Yes,No,No,No,C,A,72 dB
+http://www.dexel.co.uk,Vredestein,Quatrac Pro,205,40,17,R,84,W,£114.61,Yes,No,No,Yes,E,B,71 dB
