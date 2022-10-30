@@ -126,6 +126,14 @@ def Input():
         browser.get(url)
         #browser.find_element(By.XPATH, "//input[@class='button secondary']").click()
 
+        #.get() used instead of .find().click() because in my testing, Dexels dropdown menus have a habit of not
+        #changing their values to properly match the avaiable options. This leads to issues where the user is able
+        #to select tyre combinations that don't exist. This leads to the scraper reflecting those mismatched options.
+        #To avoid any crashes due to incorrect data, on top of the initial error capturing, the script will jump to
+        #the url based on the inputs provided instead of trying to use the button that may or may not be there.
+        #This still allows a 'search' to be made which will return tyres if the combination of options is valid
+        #but will also just return a blank search result if the combination is not valid.
+
 def scrape(jsonList, website):
     tyreData = {}
     columnName = [".column-one.column", ".column-two.column", ".column-three.column"]
